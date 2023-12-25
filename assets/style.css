@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+
+p{
+    color: #251F21;
+    text-align: justify;
+    }
+
+header-section{
+    color: beige;
+    background-color: orangered;
+    }
+abtme-portfoliolink {left: 22px; top: 17px; text-align: center; color: black; font-size: 24px; font-family: Inika; font-weight: 700; text-transform: uppercase; word-wrap: break-word }
