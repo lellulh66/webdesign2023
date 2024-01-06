@@ -1,4 +1,6 @@
 /*global styling*/
+@font-face { font-family: Inika; src: url(fonts/Inika-Regular.ttf);}
+
 body {
     margin: 0;
     padding: 0;
@@ -30,6 +32,7 @@ p {
     text-align: center;
     align-content: center;
     border-radius: 0.25rem;
+    font-family: Inika, Arial;
 }
 
 .content {
@@ -62,3 +65,95 @@ p {
     color: #333;
     background-color:#E39063;
 }
+/* nav bar */
+
+nav{
+    background-color: #E39063;
+    display:flex;
+    justify-content:space-around;
+    overflow: hidden;
+    font-size:2vw;
+    width: 100%;
+}
+nav img{
+    width: 40px;
+    }
+nav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav a :active{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+#short{
+       width:2.5%;
+       }
+       
+.homelink{
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.pricing{
+    width: 1179px;
+    height: 520px;
+
+}
+/* Style the article container */
+.article-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    padding-left: 5%; /* testing to see if this will give the same border effect as the abt sec*/
+    padding-right: 5%;
+  }
+  
+  /* Style the background image */
+  .background-image {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1; /* allows the buttons to stack above the backdrop */
+  }
+  
+  /* Style the content */
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Style the buttons */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    background-color: #E39063;
+    color: #333 ;
+    border: 1PX;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #555;
+  }
